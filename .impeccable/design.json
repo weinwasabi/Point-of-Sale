@@ -1,0 +1,1010 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-04T06:19:12.694Z",
+  "title": "Design System: Till POS",
+  "extensions": {
+    "colorMeta": {
+      "action-blue": {
+        "role": "primary",
+        "displayName": "Action Blue",
+        "canonical": "#1d4ed8",
+        "oklch": "oklch(48.8% 0.217 -95.6)",
+        "tonalRamp": [
+          "#020921",
+          "#021768",
+          "#0326b2",
+          "#1e50da",
+          "#3f76fe",
+          "#77a2ff",
+          "#afc9fe",
+          "#e7efff"
+        ]
+      },
+      "action-blue-deep": {
+        "role": "primary",
+        "displayName": "Action Blue Deep",
+        "canonical": "#1e40af",
+        "oklch": "oklch(42.4% 0.181 -94.4)",
+        "tonalRamp": [
+          "#040a1e",
+          "#091c5d",
+          "#1431a0",
+          "#2f56c6",
+          "#4e7aed",
+          "#7aa1fe",
+          "#b0c9ff",
+          "#e8effc"
+        ]
+      },
+      "paid-green": {
+        "role": "secondary",
+        "displayName": "Paid Green",
+        "canonical": "#15803d",
+        "oklch": "oklch(52.7% 0.137 150.1)",
+        "tonalRamp": [
+          "#020f04",
+          "#012e11",
+          "#025022",
+          "#017534",
+          "#379954",
+          "#65bb7a",
+          "#a9d7b1",
+          "#e8f1e9"
+        ]
+      },
+      "paid-green-deep": {
+        "role": "secondary",
+        "displayName": "Paid Green Deep",
+        "canonical": "#166534",
+        "oklch": "oklch(44.8% 0.108 151.3)",
+        "tonalRamp": [
+          "#030e06",
+          "#002e12",
+          "#015024",
+          "#277240",
+          "#4b9561",
+          "#74b785",
+          "#b0d4b7",
+          "#e9f1eb"
+        ]
+      },
+      "night-counter": {
+        "role": "neutral",
+        "displayName": "Night Counter",
+        "canonical": "#16202c",
+        "oklch": "oklch(24.0% 0.027 -106.6)",
+        "tonalRamp": [
+          "#090b0e",
+          "#1f262e",
+          "#384350",
+          "#576271",
+          "#778493",
+          "#9aa6b5",
+          "#c3cad2",
+          "#edeef0"
+        ]
+      },
+      "night-counter-text": {
+        "role": "neutral",
+        "displayName": "Night Counter Text",
+        "canonical": "#e8edf3",
+        "oklch": "oklch(94.4% 0.010 -107.2)",
+        "tonalRamp": [
+          "#0a0b0c",
+          "#232528",
+          "#3e4247",
+          "#5d6267",
+          "#7e8388",
+          "#a1a5ab",
+          "#c7c9cc",
+          "#eeeeef"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Canvas",
+        "canonical": "#eceff3",
+        "oklch": "oklch(95.1% 0.006 -104.5)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#242527",
+          "#404245",
+          "#5f6165",
+          "#808286",
+          "#a3a5a9",
+          "#c8c9cb",
+          "#eeeeef"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "surface-sunk": {
+        "role": "neutral",
+        "displayName": "Surface Sunk",
+        "canonical": "#f5f7f9",
+        "oklch": "oklch(97.5% 0.003 -112.1)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242526",
+          "#414244",
+          "#606163",
+          "#818284",
+          "#a3a5a7",
+          "#c8c9ca",
+          "#eeeeef"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Border",
+        "canonical": "#d8dde4",
+        "oklch": "oklch(89.6% 0.011 -103.3)",
+        "tonalRamp": [
+          "#0a0b0c",
+          "#232529",
+          "#3e4248",
+          "#5d6268",
+          "#7e8389",
+          "#a1a5ab",
+          "#c7c9cd",
+          "#eeeeef"
+        ]
+      },
+      "border-strong": {
+        "role": "neutral",
+        "displayName": "Border Strong",
+        "canonical": "#b9c1cc",
+        "oklch": "oklch(80.8% 0.018 -103.7)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#21252b",
+          "#3c434c",
+          "#5b626c",
+          "#7c838d",
+          "#9fa6af",
+          "#c5c9cf",
+          "#eeeef0"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#17202b",
+        "oklch": "oklch(24.0% 0.025 -106.2)",
+        "tonalRamp": [
+          "#090b0e",
+          "#20262d",
+          "#39434f",
+          "#58626f",
+          "#788391",
+          "#9ba6b4",
+          "#c4cad1",
+          "#edeef0"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#5b6676",
+        "oklch": "oklch(50.7% 0.029 -102.3)",
+        "tonalRamp": [
+          "#090b0e",
+          "#1f252e",
+          "#384352",
+          "#576272",
+          "#788394",
+          "#9ba6b6",
+          "#c3cad3",
+          "#edeef0"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus",
+        "canonical": "#2563eb",
+        "oklch": "oklch(54.6% 0.215 -97.1)",
+        "tonalRamp": [
+          "#020921",
+          "#001a64",
+          "#0031a4",
+          "#1451d8",
+          "#3978fe",
+          "#74a3ff",
+          "#aecafe",
+          "#e6efff"
+        ]
+      },
+      "danger": {
+        "role": "status",
+        "displayName": "Danger",
+        "canonical": "#b91c1c",
+        "oklch": "oklch(50.5% 0.190 27.5)",
+        "tonalRamp": [
+          "#1b0302",
+          "#4d0103",
+          "#810007",
+          "#b51517",
+          "#dd453c",
+          "#ff7366",
+          "#feb3a9",
+          "#fceae7"
+        ]
+      },
+      "danger-deep": {
+        "role": "status",
+        "displayName": "Danger Deep",
+        "canonical": "#991b1b",
+        "oklch": "oklch(44.4% 0.161 26.9)",
+        "tonalRamp": [
+          "#190403",
+          "#4c0104",
+          "#80010a",
+          "#aa2e2a",
+          "#d1534b",
+          "#f47d71",
+          "#fbb5ac",
+          "#faeae8"
+        ]
+      },
+      "danger-soft": {
+        "role": "status",
+        "displayName": "Danger Soft",
+        "canonical": "#fdecec",
+        "oklch": "oklch(95.7% 0.018 17.5)",
+        "tonalRamp": [
+          "#0d0a0a",
+          "#2b2323",
+          "#4b3e3e",
+          "#6b5d5d",
+          "#8d7e7e",
+          "#b0a1a1",
+          "#cfc7c7",
+          "#f0eeee"
+        ]
+      },
+      "danger-line": {
+        "role": "status",
+        "displayName": "Danger Line",
+        "canonical": "#f0b4b4",
+        "oklch": "oklch(82.5% 0.070 18.7)",
+        "tonalRamp": [
+          "#120808",
+          "#381b1c",
+          "#623133",
+          "#855152",
+          "#a87172",
+          "#ca9595",
+          "#e0c0c0",
+          "#f3edec"
+        ]
+      },
+      "warn": {
+        "role": "status",
+        "displayName": "Warn",
+        "canonical": "#92400e",
+        "oklch": "oklch(47.3% 0.125 46.2)",
+        "tonalRamp": [
+          "#160702",
+          "#411600",
+          "#6d2b02",
+          "#984616",
+          "#be683c",
+          "#e08d65",
+          "#edbda7",
+          "#f7ece7"
+        ]
+      },
+      "warn-soft": {
+        "role": "status",
+        "displayName": "Warn Soft",
+        "canonical": "#fef3c7",
+        "oklch": "oklch(96.2% 0.058 95.6)",
+        "tonalRamp": [
+          "#0d0b05",
+          "#2b250e",
+          "#4b421b",
+          "#6b613a",
+          "#8d825a",
+          "#afa57f",
+          "#cfc9b4",
+          "#f0eeea"
+        ]
+      },
+      "ok-soft": {
+        "role": "status",
+        "displayName": "OK Soft",
+        "canonical": "#dcfce7",
+        "oklch": "oklch(96.2% 0.043 156.7)",
+        "tonalRamp": [
+          "#080d09",
+          "#19291f",
+          "#2e4939",
+          "#4d6957",
+          "#6d8b78",
+          "#91ad9b",
+          "#becec3",
+          "#ecefed"
+        ]
+      },
+      "ok-line": {
+        "role": "status",
+        "displayName": "OK Line",
+        "canonical": "#a7e3bb",
+        "oklch": "oklch(86.4% 0.083 155.1)",
+        "tonalRamp": [
+          "#050e08",
+          "#0a2d19",
+          "#124f2e",
+          "#366f4c",
+          "#58916d",
+          "#7eb490",
+          "#b4d2bd",
+          "#eaf0ec"
+        ]
+      },
+      "info": {
+        "role": "status",
+        "displayName": "Info",
+        "canonical": "#3730a3",
+        "oklch": "oklch(39.8% 0.177 -82.6)",
+        "tonalRamp": [
+          "#07081d",
+          "#1b185b",
+          "#33299c",
+          "#4d4ec3",
+          "#6b72ea",
+          "#909afe",
+          "#bcc5fe",
+          "#ebeefc"
+        ]
+      },
+      "info-soft": {
+        "role": "status",
+        "displayName": "Info Soft",
+        "canonical": "#e0e7ff",
+        "oklch": "oklch(93.0% 0.033 -87.2)",
+        "tonalRamp": [
+          "#0a0b0f",
+          "#212430",
+          "#3c4154",
+          "#5b6075",
+          "#7b8197",
+          "#9ea4b9",
+          "#c5c9d5",
+          "#edeef1"
+        ]
+      },
+      "on-fill": {
+        "role": "neutral",
+        "displayName": "On Fill",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "selected-row": {
+        "role": "neutral",
+        "displayName": "Selected Row",
+        "canonical": "#e8efff",
+        "oklch": "oklch(95.2% 0.023 -93.1)",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#22252d",
+          "#3c424f",
+          "#5b616f",
+          "#7c8291",
+          "#9fa5b3",
+          "#c6c9d1",
+          "#eeeef0"
+        ]
+      },
+      "disabled-fill": {
+        "role": "neutral",
+        "displayName": "Disabled Fill",
+        "canonical": "#9aa5b3",
+        "oklch": "oklch(71.8% 0.024 -105.6)",
+        "tonalRamp": [
+          "#090b0e",
+          "#20262d",
+          "#39434f",
+          "#58626f",
+          "#798391",
+          "#9ca6b3",
+          "#c4cad1",
+          "#edeef0"
+        ]
+      },
+      "stock-low": {
+        "role": "status",
+        "displayName": "Stock Low",
+        "canonical": "#fde68a",
+        "oklch": "oklch(92.4% 0.115 95.7)",
+        "tonalRamp": [
+          "#0f0b01",
+          "#2d2501",
+          "#4e4101",
+          "#736001",
+          "#97811e",
+          "#b9a552",
+          "#d4ca9e",
+          "#f1efe5"
+        ]
+      },
+      "stock-low-text": {
+        "role": "status",
+        "displayName": "Stock Low Text",
+        "canonical": "#78350f",
+        "oklch": "oklch(41.4% 0.105 45.9)",
+        "tonalRamp": [
+          "#140803",
+          "#3f1803",
+          "#6d2b01",
+          "#914c28",
+          "#b66d4a",
+          "#d89271",
+          "#e8bfac",
+          "#f5ece8"
+        ]
+      },
+      "receipt-ink": {
+        "role": "neutral",
+        "displayName": "Receipt Ink",
+        "canonical": "#111111",
+        "oklch": "oklch(17.8% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "receipt-muted": {
+        "role": "neutral",
+        "displayName": "Receipt Muted",
+        "canonical": "#555555",
+        "oklch": "oklch(45.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "receipt-rule": {
+        "role": "neutral",
+        "displayName": "Receipt Rule",
+        "canonical": "#999999",
+        "oklch": "oklch(68.3% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "tile-blue": {
+        "role": "tertiary",
+        "displayName": "Tile Blue",
+        "canonical": "#1d4ed8",
+        "oklch": "oklch(48.8% 0.217 -95.6)",
+        "tonalRamp": [
+          "#020921",
+          "#021768",
+          "#0326b2",
+          "#1e50da",
+          "#3f76fe",
+          "#77a2ff",
+          "#afc9fe",
+          "#e7efff"
+        ]
+      },
+      "tile-green": {
+        "role": "tertiary",
+        "displayName": "Tile Green",
+        "canonical": "#15803d",
+        "oklch": "oklch(52.7% 0.137 150.1)",
+        "tonalRamp": [
+          "#020f04",
+          "#012e11",
+          "#025022",
+          "#017534",
+          "#379954",
+          "#65bb7a",
+          "#a9d7b1",
+          "#e8f1e9"
+        ]
+      },
+      "tile-amber": {
+        "role": "tertiary",
+        "displayName": "Tile Amber",
+        "canonical": "#b45309",
+        "oklch": "oklch(55.5% 0.146 49.0)",
+        "tonalRamp": [
+          "#170601",
+          "#3f1800",
+          "#6b2d00",
+          "#9a4501",
+          "#c56323",
+          "#e88a54",
+          "#f2bb9f",
+          "#f8ece6"
+        ]
+      },
+      "tile-red": {
+        "role": "tertiary",
+        "displayName": "Tile Red",
+        "canonical": "#b91c1c",
+        "oklch": "oklch(50.5% 0.190 27.5)",
+        "tonalRamp": [
+          "#1b0302",
+          "#4d0103",
+          "#810007",
+          "#b51517",
+          "#dd453c",
+          "#ff7366",
+          "#feb3a9",
+          "#fceae7"
+        ]
+      },
+      "tile-violet": {
+        "role": "tertiary",
+        "displayName": "Tile Violet",
+        "canonical": "#6d28d9",
+        "oklch": "oklch(49.1% 0.241 -67.4)",
+        "tonalRamp": [
+          "#0d0422",
+          "#2c0163",
+          "#4d02a4",
+          "#6e29da",
+          "#8c58fe",
+          "#a990fe",
+          "#cabffe",
+          "#eeecff"
+        ]
+      },
+      "tile-cyan": {
+        "role": "tertiary",
+        "displayName": "Tile Cyan",
+        "canonical": "#0e7490",
+        "oklch": "oklch(52.0% 0.094 -136.9)",
+        "tonalRamp": [
+          "#020d12",
+          "#002a36",
+          "#024a5d",
+          "#016c87",
+          "#358eab",
+          "#64b1cc",
+          "#a8d1e0",
+          "#e8f0f3"
+        ]
+      },
+      "tile-pink": {
+        "role": "tertiary",
+        "displayName": "Tile Pink",
+        "canonical": "#be185d",
+        "oklch": "oklch(52.5% 0.199 4.0)",
+        "tonalRamp": [
+          "#1b0209",
+          "#4a001f",
+          "#7c0239",
+          "#b20354",
+          "#db3c75",
+          "#fe6b98",
+          "#feb0c2",
+          "#fce9ed"
+        ]
+      },
+      "tile-lime": {
+        "role": "tertiary",
+        "displayName": "Tile Lime",
+        "canonical": "#4d7c0f",
+        "oklch": "oklch(53.2% 0.141 131.6)",
+        "tonalRamp": [
+          "#060e01",
+          "#172c00",
+          "#2c4d00",
+          "#447003",
+          "#62932e",
+          "#87b65c",
+          "#b8d4a3",
+          "#ebf1e6"
+        ]
+      },
+      "tile-orange": {
+        "role": "tertiary",
+        "displayName": "Tile Orange",
+        "canonical": "#c2410c",
+        "oklch": "oklch(55.3% 0.174 38.4)",
+        "tonalRamp": [
+          "#1a0401",
+          "#451000",
+          "#742201",
+          "#a83400",
+          "#d55325",
+          "#f77d55",
+          "#fdb59f",
+          "#faebe6"
+        ]
+      },
+      "tile-slate": {
+        "role": "tertiary",
+        "displayName": "Tile Slate",
+        "canonical": "#475569",
+        "oklch": "oklch(44.6% 0.037 -102.7)",
+        "tonalRamp": [
+          "#090b0f",
+          "#1d2631",
+          "#354356",
+          "#546277",
+          "#748499",
+          "#98a6bb",
+          "#c1cad6",
+          "#edeff1"
+        ]
+      },
+      "stock-count": {
+        "role": "status",
+        "displayName": "Stock Count",
+        "canonical": "rgb(0 0 0 / 0.25)",
+        "oklch": "oklch(0% 0 0 / 0.25)",
+        "tonalRamp": []
+      },
+      "backdrop": {
+        "role": "neutral",
+        "displayName": "Backdrop",
+        "canonical": "rgb(15 23 42 / 0.55)",
+        "oklch": "oklch(20.8% 0.040 265.8 / 0.55)",
+        "tonalRamp": []
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The amount due in the payment dialog; change due and the hero report figure sit at 34px."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "The basket's grand total; the Pay bar label uses the same weight at 22px."
+      },
+      "figure-lg": {
+        "displayName": "Figure Large",
+        "purpose": "Change due and the hero report stat."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "The payment dialog Total."
+      },
+      "brand-mark": {
+        "displayName": "Brand Mark",
+        "purpose": "The T in the 56px lock-screen mark."
+      },
+      "figure-sm": {
+        "displayName": "Figure Small",
+        "purpose": "Report stats; the dialog close glyph."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Page and lock-screen headings."
+      },
+      "money-input": {
+        "displayName": "Money Input",
+        "purpose": "Amounts typed into a money field."
+      },
+      "title-md": {
+        "displayName": "Title Medium",
+        "purpose": "Dialog titles; basket quantity glyphs."
+      },
+      "control-lg": {
+        "displayName": "Control Large",
+        "purpose": "Large buttons, catalog search, muted keypad keys."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Card and section headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default text everywhere; product names on tiles are 15px at 700."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Button, nav, chip, and segmented-option text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels, stat labels, and the top bar staff line."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Hints, line details, timestamps, and table headers."
+      },
+      "keypad": {
+        "displayName": "Keypad",
+        "purpose": "Number pad keys and stepper values."
+      },
+      "badge": {
+        "displayName": "Badge",
+        "purpose": "Status badges and tile stock pills; the smallest text."
+      },
+      "receipt": {
+        "displayName": "Receipt",
+        "purpose": "The printed 80mm till roll only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "lift",
+        "value": "0 1px 2px rgb(15 23 42 / 0.06), 0 4px 12px rgb(15 23 42 / 0.06)",
+        "purpose": "Selected option in a segmented control (--shadow)."
+      },
+      {
+        "name": "dialog",
+        "value": "0 20px 50px rgb(15 23 42 / 0.3)",
+        "purpose": "Modals, over a rgb(15 23 42 / 0.55) backdrop."
+      },
+      {
+        "name": "toast",
+        "value": "0 10px 30px rgb(15 23 42 / 0.3)",
+        "purpose": "Bottom-center confirmation toasts."
+      },
+      {
+        "name": "key-edge",
+        "value": "inset 0 -3px 0 rgb(0 0 0 / 0.18)",
+        "purpose": "Darker bottom edge that makes product tiles read as keys."
+      },
+      {
+        "name": "selection-bar",
+        "value": "inset 4px 0 0 #1d4ed8",
+        "purpose": "Selected transaction row, on the Selected Row tint (#e8efff)."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 3px solid #2563eb; outline-offset: 2px",
+        "purpose": "Keyboard focus on every focusable element (an outline, not a shadow). Scrolling strips keep 5px of padding for it; full-width transaction rows use outline-offset -3px."
+      }
+    ],
+    "motion": [
+      {
+        "name": "press",
+        "value": "80ms ease (transform scale 0.96–0.99)",
+        "purpose": "Press feedback: keys 0.96, tiles 0.97, buttons 0.98, Pay bar 0.99."
+      },
+      {
+        "name": "hover-fill",
+        "value": "100–120ms ease (background-color)",
+        "purpose": "Hover fill changes on buttons, keys, and the Pay bar."
+      },
+      {
+        "name": "fade-in",
+        "value": "120ms ease",
+        "purpose": "Dialog backdrop."
+      },
+      {
+        "name": "pop-in",
+        "value": "140ms ease (dialogs), 160ms ease (toasts); from opacity 0, translateY(8px), scale(0.98)",
+        "purpose": "Dialogs and toasts entering."
+      },
+      {
+        "name": "shake",
+        "value": "300ms ease, ±6px translateX",
+        "purpose": "Wrong PIN on the lock screen."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media (prefers-reduced-motion: reduce) → animation and transition none",
+        "purpose": "All motion switches off."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "1100px",
+        "purpose": "Basket narrows to 360px; top-bar clock hides."
+      },
+      {
+        "name": "stacked",
+        "value": "820px",
+        "purpose": "Single column: nav wraps, basket stacks under catalog, page scrolls as a whole."
+      },
+      {
+        "name": "receipt-print",
+        "value": "80mm",
+        "purpose": "Printed receipt width."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Default Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "White outlined button for secondary actions such as Print receipt, Hold, and Cancel.",
+      "html": "<button type=\"button\" class=\"ds-btn\">Print receipt</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 44px; padding: 0 16px; border: 1px solid var(--border-strong, #b9c1cc); border-radius: var(--radius, 10px); background: var(--surface, #ffffff); color: var(--text, #17202b); font-family: var(--font, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif); font-size: 15px; font-weight: 600; cursor: pointer; white-space: nowrap; transition: background-color 120ms ease, transform 80ms ease; } .ds-btn:hover { background: var(--surface-2, #f5f7f9); } .ds-btn:active { transform: scale(0.98); } .ds-btn:focus-visible { outline: 3px solid var(--focus, #2563eb); outline-offset: 2px; }"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Action Blue for ordinary confirmations: Save, Add, Apply.",
+      "html": "<button type=\"button\" class=\"ds-btn-primary\">Save product</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 44px; padding: 0 16px; border: 1px solid var(--border-strong, #b9c1cc); border-radius: var(--radius, 10px); background: var(--surface, #ffffff); color: var(--text, #17202b); font-family: var(--font, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif); font-size: 15px; font-weight: 600; cursor: pointer; white-space: nowrap; transition: background-color 120ms ease, transform 80ms ease; background: var(--primary, #1d4ed8); border-color: var(--primary, #1d4ed8); color: var(--on-fill, #ffffff); } .ds-btn-primary:hover { background: var(--primary-hover, #1e40af); } .ds-btn-primary:active { transform: scale(0.98); } .ds-btn-primary:focus-visible { outline: 3px solid var(--focus, #2563eb); outline-offset: 2px; }"
+    },
+    {
+      "name": "Paid Button",
+      "kind": "button",
+      "refersTo": "button-paid",
+      "description": "Paid Green at the large size, only for moving money: Take cash, Charge card, New sale.",
+      "html": "<button type=\"button\" class=\"ds-btn-paid\">Take cash</button>",
+      "css": ".ds-btn-paid { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 44px; padding: 0 16px; border: 1px solid var(--border-strong, #b9c1cc); border-radius: var(--radius, 10px); background: var(--surface, #ffffff); color: var(--text, #17202b); font-family: var(--font, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif); font-size: 15px; font-weight: 600; cursor: pointer; white-space: nowrap; transition: background-color 120ms ease, transform 80ms ease; min-height: 56px; font-size: 17px; background: var(--accent, #15803d); border-color: var(--accent, #15803d); color: var(--on-fill, #ffffff); } .ds-btn-paid:hover { background: var(--accent-hover, #166534); } .ds-btn-paid:active { transform: scale(0.98); } .ds-btn-paid:focus-visible { outline: 3px solid var(--focus, #2563eb); outline-offset: 2px; }"
+    },
+    {
+      "name": "Pay Bar",
+      "kind": "custom",
+      "refersTo": "pay-bar",
+      "description": "The largest press in the app, pinned under the basket totals.",
+      "html": "<button type=\"button\" class=\"ds-pay-bar\"><span>Pay</span><span class=\"ds-pay-amount\">₱465.00</span></button>",
+      "css": ".ds-pay-bar { display: flex; align-items: center; justify-content: space-between; width: 360px; max-width: 100%; min-height: 68px; padding: 0 22px; border: none; border-radius: 12px; background: var(--accent, #15803d); color: var(--on-fill, #ffffff); font-family: var(--font, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif); font-size: 22px; font-weight: 800; cursor: pointer; transition: background-color 120ms ease, transform 80ms ease; } .ds-pay-bar:hover { background: var(--accent-hover, #166534); } .ds-pay-bar:active { transform: scale(0.99); } .ds-pay-amount { font-variant-numeric: tabular-nums; } .ds-pay-bar:focus-visible { outline: 3px solid var(--focus, #2563eb); outline-offset: 2px; }"
+    },
+    {
+      "name": "Product Tiles",
+      "kind": "custom",
+      "refersTo": "product-tile",
+      "description": "Solid category-colored keys with a pressed bottom edge, name on top and price below; stock pills at 12px/700.",
+      "html": "<div class=\"ds-tiles\"><button type=\"button\" class=\"ds-tile\" style=\"--tile:#7c3f1d\"><span class=\"ds-tile-name\">Cappuccino</span><span class=\"ds-tile-meta\"><span class=\"ds-tile-price\">₱150.00</span></span></button><button type=\"button\" class=\"ds-tile\" style=\"--tile:#b45309\"><span class=\"ds-tile-name\">Ensaymada</span><span class=\"ds-tile-meta\"><span class=\"ds-tile-price\">₱65.00</span><span class=\"ds-tile-stock\">20</span></span></button><button type=\"button\" class=\"ds-tile\" style=\"--tile:#1d4ed8\"><span class=\"ds-tile-name\">Ceramic Mug</span><span class=\"ds-tile-meta\"><span class=\"ds-tile-price\">₱350.00</span><span class=\"ds-tile-stock ds-tile-stock-out\">Out</span></span></button></div>",
+      "css": ".ds-tiles { display: grid; grid-template-columns: repeat(3, 148px); gap: 10px; } .ds-tile { display: flex; flex-direction: column; justify-content: space-between; gap: 8px; min-height: 104px; padding: 12px; border: none; border-radius: 12px; background: var(--tile); color: var(--on-fill, #ffffff); text-align: left; font-family: var(--font, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif); cursor: pointer; box-shadow: inset 0 -3px 0 rgb(0 0 0 / 0.18); transition: transform 80ms ease, filter 120ms ease; } .ds-tile:hover { filter: brightness(1.08); } .ds-tile:active { transform: scale(0.97); } .ds-tile:focus-visible { outline: 3px solid var(--focus, #2563eb); outline-offset: 2px; } .ds-tile-name { font-weight: 700; font-size: 15px; line-height: 1.25; } .ds-tile-meta { display: flex; align-items: flex-end; justify-content: space-between; gap: 6px; } .ds-tile-price { font-weight: 600; font-size: 14px; } .ds-tile-stock { font-size: 12px; font-weight: 700; padding: 2px 6px; border-radius: 6px; background: rgb(0 0 0 / 0.25); } .ds-tile-stock-out { background: var(--surface, #ffffff); color: var(--danger, #b91c1c); }"
+    },
+    {
+      "name": "Category Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Pill filters above the product grid; the selected chip fills with its category color.",
+      "html": "<div class=\"ds-chips\"><button type=\"button\" class=\"ds-chip\" aria-pressed=\"true\">All</button><button type=\"button\" class=\"ds-chip\" style=\"--chip:#b45309\"><span class=\"ds-chip-dot\"></span>Bakery</button><button type=\"button\" class=\"ds-chip\" style=\"--chip:#0e7490\" aria-pressed=\"true\"><span class=\"ds-chip-dot\"></span>Tea &amp; Drinks</button></div>",
+      "css": ".ds-chips { display: flex; gap: 8px; flex-wrap: wrap; } .ds-chip { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border: 1px solid var(--border-strong, #b9c1cc); border-radius: 999px; background: var(--surface, #ffffff); color: var(--text, #17202b); font-family: var(--font, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif); font-size: 15px; font-weight: 600; white-space: nowrap; cursor: pointer; } .ds-chip:hover { background: var(--surface-2, #f5f7f9); } .ds-chip:focus-visible { outline: 3px solid var(--focus, #2563eb); outline-offset: 2px; } .ds-chip-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--chip); } .ds-chip[aria-pressed=\"true\"] { background: var(--chip, var(--text, #17202b)); border-color: var(--chip, var(--text, #17202b)); color: var(--on-fill, #ffffff); } .ds-chip[aria-pressed=\"true\"] .ds-chip-dot { background: var(--on-fill, #ffffff); }"
+    },
+    {
+      "name": "Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Label above, 44px outlined input, hint below in Muted.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">Product name</span><input class=\"ds-input\" value=\"Café Latte\" /><span class=\"ds-field-hint\">Shown on tiles and receipts.</span></label>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 6px; width: 320px; max-width: 100%; font-family: var(--font, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif); color: var(--text, #17202b); } .ds-field-label { font-size: 14px; font-weight: 600; } .ds-input { min-height: 44px; padding: 0 12px; border: 1px solid var(--border-strong, #b9c1cc); border-radius: var(--radius, 10px); background: var(--surface, #ffffff); color: var(--text, #17202b); font: inherit; font-size: 15px; } .ds-input:focus-visible { outline: 3px solid var(--focus, #2563eb); outline-offset: 2px; } .ds-field-hint { color: var(--muted, #5b6676); font-size: 13px; }"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "custom",
+      "refersTo": "segmented",
+      "description": "Sunk track with a raised white selected option; used for ranges, filters, and payment method.",
+      "html": "<div class=\"ds-segmented\" role=\"radiogroup\" aria-label=\"Date range\"><button type=\"button\" role=\"radio\" class=\"ds-seg\" aria-checked=\"true\">Today</button><button type=\"button\" role=\"radio\" class=\"ds-seg\" aria-checked=\"false\">Yesterday</button><button type=\"button\" role=\"radio\" class=\"ds-seg\" aria-checked=\"false\">7 days</button><button type=\"button\" role=\"radio\" class=\"ds-seg\" aria-checked=\"false\">Month</button></div>",
+      "css": ".ds-segmented { display: flex; gap: 4px; padding: 4px; background: var(--surface-2, #f5f7f9); border: 1px solid var(--border, #d8dde4); border-radius: var(--radius, 10px); width: 420px; max-width: 100%; font-family: var(--font, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif); } .ds-seg { flex: 1; min-height: 44px; padding: 0 14px; border: none; border-radius: 8px; background: transparent; color: var(--muted, #5b6676); font: inherit; font-size: 15px; font-weight: 600; white-space: nowrap; cursor: pointer; } .ds-seg:hover { color: var(--text, #17202b); } .ds-seg:focus-visible { outline: 3px solid var(--focus, #2563eb); outline-offset: 2px; } .ds-seg[aria-checked=\"true\"] { background: var(--surface, #ffffff); color: var(--text, #17202b); box-shadow: var(--shadow, 0 1px 2px rgb(15 23 42 / 0.06), 0 4px 12px rgb(15 23 42 / 0.06)); }"
+    },
+    {
+      "name": "Keypad",
+      "kind": "custom",
+      "refersTo": "keypad-key",
+      "description": "Three-column grid of 56px keys for PIN entry and cash amounts.",
+      "html": "<div class=\"ds-keypad\"><button type=\"button\" class=\"ds-key\">7</button><button type=\"button\" class=\"ds-key\">8</button><button type=\"button\" class=\"ds-key\">9</button><button type=\"button\" class=\"ds-key\">4</button><button type=\"button\" class=\"ds-key\">5</button><button type=\"button\" class=\"ds-key\">6</button><button type=\"button\" class=\"ds-key\">1</button><button type=\"button\" class=\"ds-key\">2</button><button type=\"button\" class=\"ds-key\">3</button><button type=\"button\" class=\"ds-key ds-key-muted\">C</button><button type=\"button\" class=\"ds-key\">0</button><button type=\"button\" class=\"ds-key ds-key-muted\" aria-label=\"Delete last digit\">⌫</button></div>",
+      "css": ".ds-keypad { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; width: 300px; max-width: 100%; } .ds-key { min-height: 56px; border: 1px solid var(--border, #d8dde4); border-radius: var(--radius, 10px); background: var(--surface, #ffffff); color: var(--text, #17202b); font-family: var(--font, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif); font-size: 22px; font-weight: 600; font-variant-numeric: tabular-nums; cursor: pointer; transition: background-color 100ms ease, transform 80ms ease; } .ds-key:hover { background: var(--surface-2, #f5f7f9); } .ds-key:active { transform: scale(0.96); } .ds-key:focus-visible { outline: 3px solid var(--focus, #2563eb); outline-offset: 2px; } .ds-key-muted { background: var(--surface-2, #f5f7f9); color: var(--muted, #5b6676); font-size: 17px; }"
+    },
+    {
+      "name": "Top Bar",
+      "kind": "nav",
+      "refersTo": "nav-item",
+      "description": "Night Counter bar with the brand mark, screen tabs, staff, and Lock.",
+      "html": "<header class=\"ds-topbar\"><span class=\"ds-brand\"><span class=\"ds-brand-mark\">T</span><span class=\"ds-store\">Corner Café</span></span><nav class=\"ds-nav\" aria-label=\"Main\"><button type=\"button\" class=\"ds-nav-item\" aria-current=\"page\">Sale</button><button type=\"button\" class=\"ds-nav-item\">Transactions</button><button type=\"button\" class=\"ds-nav-item\">Reports</button></nav><span class=\"ds-staff\">Manager<span class=\"ds-role\">Manager</span></span><button type=\"button\" class=\"ds-lock\">Lock</button></header>",
+      "css": ".ds-topbar { display: flex; align-items: center; gap: 16px; min-height: 60px; padding: 0 16px; background: var(--topbar, #16202c); color: var(--topbar-text, #e8edf3); font-family: var(--font, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif); font-size: 15px; } .ds-brand { display: flex; align-items: center; gap: 10px; font-weight: 700; } .ds-brand-mark { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 9px; background: var(--accent, #15803d); color: var(--on-fill, #ffffff); font-weight: 800; font-size: 17px; } .ds-nav { display: flex; gap: 4px; flex: 1; } .ds-nav-item { min-height: 44px; padding: 0 14px; border: none; border-radius: 8px; background: transparent; color: rgb(232 237 243 / 0.75); font: inherit; font-weight: 600; cursor: pointer; } .ds-nav-item:hover { color: var(--on-fill, #ffffff); background: rgb(255 255 255 / 0.08); } .ds-nav-item[aria-current=\"page\"] { color: var(--on-fill, #ffffff); background: rgb(255 255 255 / 0.16); } .ds-nav-item:focus-visible { outline: 3px solid var(--focus, #2563eb); outline-offset: 2px; } .ds-staff { display: flex; flex-direction: column; line-height: 1.2; font-size: 14px; font-weight: 600; } .ds-role { font-size: 12px; font-weight: 500; color: rgb(232 237 243 / 0.7); } .ds-lock { min-height: 44px; padding: 0 12px; border: 1px solid rgb(255 255 255 / 0.3); border-radius: var(--radius, 10px); background: transparent; color: var(--topbar-text, #e8edf3); font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; } .ds-lock:hover { background: rgb(255 255 255 / 0.1); } .ds-lock:focus-visible { outline: 3px solid var(--focus, #2563eb); outline-offset: 2px; }"
+    },
+    {
+      "name": "Status Badges",
+      "kind": "chip",
+      "refersTo": "badge-completed",
+      "description": "Soft-filled pills that always pair color with a word.",
+      "html": "<div class=\"ds-badges\"><span class=\"ds-badge ds-badge-completed\">Completed</span><span class=\"ds-badge ds-badge-partial\">Part refunded</span><span class=\"ds-badge ds-badge-refunded\">Refunded</span><span class=\"ds-badge ds-badge-refund\">Refund</span></div>",
+      "css": ".ds-badges { display: flex; gap: 8px; flex-wrap: wrap; font-family: var(--font, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif); } .ds-badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 700; white-space: nowrap; } .ds-badge-completed { background: var(--ok-soft, #dcfce7); color: var(--ok, #166534); } .ds-badge-partial { background: var(--warn-soft, #fef3c7); color: var(--warn, #92400e); } .ds-badge-refunded { background: var(--danger-soft, #fdecec); color: var(--danger, #b91c1c); } .ds-badge-refund { background: var(--info-soft, #e0e7ff); color: var(--info, #3730a3); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Honest Till",
+    "overview": "Till POS looks like a well-kept till on a café counter: calm, clear, and quick. The moments that matter (an order taking shape, the amount due, the change to hand back) read at a glance in the middle of a rush. The canvas is a cool, quiet grey with white working panels, and color is spent on meaning, not mood. Blue asks for an ordinary action, green says money is moving, and red warns that something can't be undone. The category tiles carry the only expressive color, and it identifies what is being sold.\n\nDensity follows the hands. Where a finger lands (product tiles, the Pay bar, the keypad, quantity steppers), controls are big, firm, and obvious. Where the eye reads (transaction lists, reports, settings), the layout tightens into bordered cards and plain tables with right-aligned, tabular figures. Nothing moves except to confirm a press or bring a dialog in, and all of it switches off under reduced motion.\n\nFour looks are rejected: the SaaS analytics dashboard (thin grey type, tiny controls, chart-first screens), the cluttered legacy POS (walls of small grey bevelled buttons and cramped text), trendy café branding (kraft paper, chalkboard, latte art) on the working screens, and dark mode. Till POS is light-only.",
+    "keyCharacteristics": [
+      "Cool grey canvas, white panels, and a near-black Night Counter top bar.",
+      "Color carries meaning: Action Blue means do, Paid Green means money moves, red means destructive.",
+      "Saturated category tiles with white bold text and a pressed-key bottom edge.",
+      "The device's own UI font throughout; monospace only on the receipt.",
+      "Tabular, right-aligned numerals for every amount.",
+      "Flat bordered surfaces; shadows only on floating layers.",
+      "Big, firm touch targets: 44px minimum, 56px for keys and primary inputs, 68px for Pay."
+    ],
+    "rules": [
+      {
+        "name": "The Paid Green Rule",
+        "body": "Green means money is moving or has just moved. It belongs on Pay, Take cash, Charge card, the New sale button after payment, and the figures that report it (amount due, change, completed). An ordinary Save or Next is Action Blue, never green.",
+        "section": "colors"
+      },
+      {
+        "name": "The Meaning Before Mood Rule",
+        "body": "Every color on a working screen answers \"what does this do or say?\" Category tiles are the only color used for identity, and status color always comes with a text label.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Money Rule",
+        "body": "Every amount uses tabular numerals and right-aligns in lists, tables, and totals, so a column of pesos lines up digit for digit.",
+        "section": "typography"
+      },
+      {
+        "name": "The Big Numbers Rule",
+        "body": "The largest type on a screen is a figure, usually money (amount due 40px, change 34px, grand total 24px), never a heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Fixed Basket Rule",
+        "body": "On counter-sized screens (wider than 820px) the basket, totals, and Pay bar stay in view at all times. Only the product grid and the basket lines scroll.",
+        "section": "layout"
+      },
+      {
+        "name": "The Floating-Only Shadow Rule",
+        "body": "A shadow means \"this sits above the page\" (dialogs, toasts) or \"this is the chosen segment.\" Cards, stats, and panels stay flat with a border. Tiles keep their key edge because they are pressed, not lifted.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Pill Means Pick Rule",
+        "body": "Fully rounded shapes are for filtering (category chips) and labeling (status badges). Anything that performs an action keeps the 10–12px corner.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** keep every touch target at least 44px tall; use 56px for keypad keys, the catalog search, and large actions, and 68px for the Pay bar.",
+      "**Do** put money movement on Paid Green and ordinary confirmations on Action Blue (the Paid Green Rule).",
+      "**Do** use tabular numerals and right alignment for every amount (the Tabular Money Rule).",
+      "**Do** pair every status color with a text label: Completed, Part refunded, Refunded, Refund.",
+      "**Do** separate panels with a 1px Border on the Canvas, and save shadows for dialogs, toasts, and the selected segment.",
+      "**Do** choose new category colors from the ten-color tile palette, or keep any addition at 4.5:1 or better against white bold text.",
+      "**Do** show keyboard focus with the 3px Focus outline offset 2px, and leave 5px of room for it inside any scrolling container.",
+      "**Do** keep presses at 80ms and fades at 120–160ms, and give any new motion a `prefers-reduced-motion` fallback."
+    ],
+    "donts": [
+      "**Don't** make it look like a SaaS analytics dashboard: no thin grey type, tiny controls, or chart-first screens.",
+      "**Don't** drift toward a cluttered legacy POS: no walls of small grey bevelled buttons or cramped text.",
+      "**Don't** bring trendy café branding (kraft paper, chalkboard, latte art) onto the working screens.",
+      "**Don't** add a dark mode; the app is light-only (`color-scheme: light`).",
+      "**Don't** use green for anything that doesn't move money or report that it moved.",
+      "**Don't** add shadows to cards, stats, or panels.",
+      "**Don't** let a heading outsize the money figures on the same screen.",
+      "**Don't** use a category tile color to signal status."
+    ]
+  }
+}

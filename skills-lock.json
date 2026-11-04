@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "blockchain-developer": {
+      "source": "sickn33/agentic-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/blockchain-developer/SKILL.md",
+      "computedHash": "7546c8ef8c334bd1cf2ec4bc295e681d88bea7aeeda6f781d743555a42461d90"
+    }
+  }
+}
